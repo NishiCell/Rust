@@ -1,0 +1,6 @@
+[package]
+name = "ownership_moves"
+version = "0.1.0"
+authors = ["nishicell <celluloce24@gmail.com>"]
+
+[dependencies]
