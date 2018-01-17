@@ -1,11 +1,8 @@
-use std::io;
+fn main() {
+    let x: Result<u32, &str> = Err("strint");
+    println!("{}", x.unwrap());
+    //    let xx: Result<u32, &str> = Ok("String").unwrap();
 
-fn main(){
-    let mut a = String::new();
-    let (b, c): (u32, u32) = String::new();
-    let mut s = String::new();
-
-    io::read_line(&mut a);
-
-    println!("{} {}", a+b+c, s);
+    //    let y: Result<u32, &str> = Err(2).unwrap();
+    //   let yy: Result<u32, &str> = Err("Strint").unwrap();
 }
