@@ -1,0 +1,10 @@
+[package]
+name = "g003_a"
+version = "0.1.0"
+authors = ["celluloce <celluloce24@gmail.com>"]
+
+[[bin]]
+name = "kou"
+path = "src/kou.rs"
+
+[dependencies]
