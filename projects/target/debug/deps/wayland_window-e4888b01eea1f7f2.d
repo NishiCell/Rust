@@ -1,0 +1,10 @@
+/home/celluloce/Documents/Rust/projects/target/debug/deps/libwayland_window-e4888b01eea1f7f2.rlib: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/decorated_surface.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/themed_pointer.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/mod.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/xdg.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/wl.rs
+
+/home/celluloce/Documents/Rust/projects/target/debug/deps/wayland_window-e4888b01eea1f7f2.d: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/decorated_surface.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/themed_pointer.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/mod.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/xdg.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/wl.rs
+
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/lib.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/decorated_surface.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/themed_pointer.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/mod.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/xdg.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-window-0.8.0/src/shell/wl.rs:

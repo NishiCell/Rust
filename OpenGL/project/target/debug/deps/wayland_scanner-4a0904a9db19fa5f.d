@@ -1,0 +1,11 @@
+/home/celluloce/Documents/Rust/OpenGL/project/target/debug/deps/libwayland_scanner-4a0904a9db19fa5f.rlib: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/util.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/parse.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/protocol.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/side.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/interface_gen.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/code_gen.rs
+
+/home/celluloce/Documents/Rust/OpenGL/project/target/debug/deps/wayland_scanner-4a0904a9db19fa5f.d: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/util.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/parse.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/protocol.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/side.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/interface_gen.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/code_gen.rs
+
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/lib.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/util.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/parse.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/protocol.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/side.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/interface_gen.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-scanner-0.12.5/src/code_gen.rs:
