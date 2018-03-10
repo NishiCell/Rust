@@ -1,1 +1,0 @@
-{"rustc":1604961252743711901,"features":"[\"client\", \"unstable_protocols\", \"wayland-client\"]","target":9109800283522952444,"profile":4513376542218014594,"path":2392836593480025117,"deps":[["bitflags v1.0.1",11574510208934308041],["wayland-client v0.12.5",16141917470084107366],["wayland-sys v0.12.5",5820741643185906169]],"local":[{"Precalculated":"0.12.5"}],"rustflags":[]}
