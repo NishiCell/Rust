@@ -1,0 +1,10 @@
+/home/celluloce/Documents/Rust/projects/target/debug/deps/libserde_derive_internals-6be87f69e1d9c810.rlib: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ast.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/attr.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ctxt.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/case.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/check.rs
+
+/home/celluloce/Documents/Rust/projects/target/debug/deps/serde_derive_internals-6be87f69e1d9c810.d: /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/lib.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ast.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/attr.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ctxt.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/case.rs /home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/check.rs
+
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/lib.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ast.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/attr.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/ctxt.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/case.rs:
+/home/celluloce/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.19.0/src/check.rs:

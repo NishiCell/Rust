@@ -1,8 +1,15 @@
 fn main() {
-    let x: Result<u32, &str> = Err("strint");
-    println!("{}", x.unwrap());
-    //    let xx: Result<u32, &str> = Ok("String").unwrap();
+    use std::collections::VecDeque;
 
-    //    let y: Result<u32, &str> = Err(2).unwrap();
-    //   let yy: Result<u32, &str> = Err("Strint").unwrap();
+    let mut vec = VecDeque::new();
+    vec.push_back(3);
+    vec.push_back(4);
+    vec.push_back(5);
+    vec.push_back(6);
+    vec.push_back(7);
+    vec.push_back(8);
+
+    for c in vec {
+        println!("{}", c);
+    }
 }
