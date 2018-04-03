@@ -1,0 +1,32 @@
+fn read() -> usize {
+    let mut s = String::new();
+    std::io::stdin().read_line(&mut s).unwrap();
+    s.trim().parse::<usize>().ok().unwrap()
+}
+fn read_vec() -> Vec<u32> {
+    let mut s = String::new();
+    std::io::stdin().read_line(&mut s).unwrap();
+    s.trim()
+        .split_whitespace()
+        .map(|c| c.parse().ok().unwrap())
+        .collect()
+}
+fn main() {
+    let n = read();
+    let mut a = read_vec();
+    let mut c = 1;
+    while c <= n - 1 {
+        let v = a[c];
+        let mut j = c - 1;
+        while j >= 0 && a[j] > v {
+            a[j + 1] = a[j];
+            if j == 0 {
+                break;
+            }
+            j -= 1;
+        }
+        a[j] = v;
+        c += 1;
+        println!("{:?}", a);
+    }
+}

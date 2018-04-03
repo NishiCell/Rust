@@ -1,0 +1,154 @@
+execve("./main", ["./main"], 0x7ffc37470570 /* 50 vars */) = 0
+brk(NULL)                               = 0x55713eed5000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/haswell", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/x86_64", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/tls", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/haswell/x86_64", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/haswell", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/x86_64", 0x7ffdc36d8170) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=222806, ...}) = 0
+mmap(NULL, 222806, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd683199000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14160, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd683197000
+mmap(NULL, 2109584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd682da8000
+mprotect(0x7fd682dab000, 2093056, PROT_NONE) = 0
+mmap(0x7fd682faa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fd682faa000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=30920, ...}) = 0
+mmap(NULL, 2128376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd682ba0000
+mprotect(0x7fd682ba7000, 2093056, PROT_NONE) = 0
+mmap(0x7fd682da6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fd682da6000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0]\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=145336, ...}) = 0
+mmap(NULL, 2216400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd682982000
+mprotect(0x7fd68299b000, 2093056, PROT_NONE) = 0
+mmap(0x7fd682b9a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fd682b9a000
+mmap(0x7fd682b9c000, 12752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd682b9c000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=747480, ...}) = 0
+mmap(NULL, 2188016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd68276b000
+mprotect(0x7fd682781000, 2093056, PROT_NONE) = 0
+mmap(0x7fd682980000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fd682980000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/celluloce/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\20\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2065784, ...}) = 0
+mmap(NULL, 3893488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd6823b4000
+mprotect(0x7fd682562000, 2093056, PROT_NONE) = 0
+mmap(0x7fd682761000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ad000) = 0x7fd682761000
+mmap(0x7fd682767000, 14576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd682767000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd683195000
+arch_prctl(ARCH_SET_FS, 0x7fd683196180) = 0
+mprotect(0x7fd682761000, 16384, PROT_READ) = 0
+mprotect(0x7fd682980000, 4096, PROT_READ) = 0
+mprotect(0x7fd682b9a000, 4096, PROT_READ) = 0
+mprotect(0x7fd682da6000, 4096, PROT_READ) = 0
+mprotect(0x7fd682faa000, 4096, PROT_READ) = 0
+mprotect(0x55713d026000, 16384, PROT_READ) = 0
+mprotect(0x7fd6831d0000, 4096, PROT_READ) = 0
+munmap(0x7fd683199000, 222806)          = 0
+set_tid_address(0x7fd683196450)         = 11864
+set_robust_list(0x7fd683196460, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fd682987770, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd682993dd0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fd682987810, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fd682993dd0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+readlink("/etc/malloc.conf", 0x7ffdc36d7a60, 4096) = -1 ENOENT (No such file or directory)
+open("/proc/sys/vm/overcommit_memory", O_RDONLY) = 3
+read(3, "0", 1)                         = 1
+close(3)                                = 0
+brk(NULL)                               = 0x55713eed5000
+mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd6821b4000
+munmap(0x7fd6821b4000, 2097152)         = 0
+mmap(NULL, 4190208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd681fb5000
+munmap(0x7fd681fb5000, 307200)          = 0
+munmap(0x7fd682200000, 1785856)         = 0
+open("/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+read(3, "0-3\n", 8192)                  = 4
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fd6823e88e0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd681e00000
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "55713cdbc000-55713ce26000 r-xp 0"..., 1024) = 1024
+read(3, "usr/lib/libgcc_s.so.1\n7fd6829800"..., 1024) = 1024
+read(3, "    /usr/lib/librt-2.26.so\n7fd68"..., 1024) = 1024
+close(3)                                = 0
+sched_getaffinity(11864, 32, [0, 1, 2, 3]) = 32
+rt_sigaction(SIGSEGV, {sa_handler=0x55713cdd0370, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fd682993dd0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55713cdd0370, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fd682993dd0}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd6831ce000
+sigaltstack({ss_sp=0x7fd6831ce000, ss_flags=0, ss_size=8192}, NULL) = 0
+write(1, "Ideal World !!\n", 15)        = 15
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+munmap(0x7fd6831ce000, 8192)            = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
