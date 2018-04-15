@@ -1,0 +1,6 @@
+[package]
+name = "b071"
+version = "0.1.0"
+authors = ["celluloce <celluloce24@gmail.com>"]
+
+[dependencies]
